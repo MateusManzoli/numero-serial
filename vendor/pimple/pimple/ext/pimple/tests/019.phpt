@@ -14,5 +14,5 @@ class Foo implements Pimple\ServiceProviderInterface
 
 $p = new Pimple\Container();
 var_dump($p === $p->register(new Foo));
---EXPECTF--
-bool(true)
+//--EXPECTF--
+bool(true);

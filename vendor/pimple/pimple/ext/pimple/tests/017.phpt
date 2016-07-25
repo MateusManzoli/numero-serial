@@ -14,4 +14,4 @@ try {
 	$p[12];
 	echo "Exception expected";
 } catch (BadMethodCallException $e) { }
---EXPECTF--
+//--EXPECTF--
